@@ -88,7 +88,7 @@ var camera = (function() {
 
 			options = captureOptions || {};
 
-			options.fps = options.fps || 40;
+			options.fps = options.fps || 30;
 			options.width = options.width || 640;
 			options.height = options.height || 480;
 			options.mirror = options.mirror || false;
