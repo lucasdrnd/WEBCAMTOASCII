@@ -4,7 +4,7 @@ var ascii = (function() {
 	function asciiFromCanvas(canvas, options) {
 		
 
-		var characters = (" .,:;i1tfLCG08@☐").split("");
+		var characters = (" .,:;i1tfLCG08@•").split("");
 
 		var context = canvas.getContext("2d");
 		var canvasWidth = canvas.width;
