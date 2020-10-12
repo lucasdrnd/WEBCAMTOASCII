@@ -4,7 +4,7 @@
  *
  * Copyright 2020 Lucas Durand
 
- 
+ */
 
 (function() {
 	var asciiContainer = document.getElementById("ascii");
