@@ -1,11 +1,10 @@
-// Author: Andrei Gheorghe (http://github.com/idevelop)
+// Author: Lucas Durand 2020
 
 var ascii = (function() {
 	function asciiFromCanvas(canvas, options) {
-		// Original code by Jacob Seidelin (http://www.nihilogic.dk/labs/jsascii/)
-		// Heavily modified by Andrei Gheorghe (http://github.com/idevelop)
+		
 
-		var characters = (" .,:;i1tfLCG08@").split("");
+		var characters = (" .,:;i1tfLCG08@z").split("");
 
 		var context = canvas.getContext("2d");
 		var canvasWidth = canvas.width;
@@ -35,7 +34,7 @@ var ascii = (function() {
 					alpha: color.alpha
 				};
 
-				// calculate pixel brightness
+				// calculate pixel brightness / - luminosité// 
 				// http://stackoverflow.com/questions/596216/formula-to-determine-brightness-of-rgb-color
 				var brightness = (0.299 * contrastedColor.red + 0.587 * contrastedColor.green + 0.114 * contrastedColor.blue) / 255;
 
