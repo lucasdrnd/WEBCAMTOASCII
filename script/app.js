@@ -1,10 +1,10 @@
 /*
  * ASCII Camera
- * http://idevelop.github.com/ascii-camera/
  *
- * Copyright 2013, Andrei Gheorghe (http://github.com/idevelop)
- * Released under the MIT license
- */
+ *
+ * Copyright 2020 Lucas Durand
+
+ 
 
 (function() {
 	var asciiContainer = document.getElementById("ascii");
@@ -13,7 +13,7 @@
 	camera.init({
 		width: 160,
 		height: 120,
-		fps: 30,
+		fps: 40,
 		mirror: true,
 
 		onFrame: function(canvas) {
