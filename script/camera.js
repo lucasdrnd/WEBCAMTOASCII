@@ -1,9 +1,8 @@
 /*
-	camera.js v1.1
-	http://github.com/idevelop/camera.js
+	camera.js v2.1
+	
 
-	Author: Andrei Gheorghe (http://idevelop.github.com)
-	License: MIT
+	Author: Lucas Durand 2020 
 */
 
 var camera = (function() {
@@ -89,7 +88,7 @@ var camera = (function() {
 
 			options = captureOptions || {};
 
-			options.fps = options.fps || 30;
+			options.fps = options.fps || 40;
 			options.width = options.width || 640;
 			options.height = options.height || 480;
 			options.mirror = options.mirror || false;
